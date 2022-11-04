@@ -1,0 +1,149 @@
+nav{
+    position: fixed;
+    width: 87%;
+    background-color: #ffff;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1vw 8vw;
+align-items: center;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .navigation ul li{
+    list-style-type: none;
+    margin-left: 30px;
+
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover{
+    color: #fdc93b;
+}
+
+#cont{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+background-image:  linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)), url("https://cdn.quotesgram.com/img/47/92/381376588-Math.jpg");
+ }
+
+ #cont h1{
+    letter-spacing: 1px;
+    padding-bottom: 35px;
+    color: rgb(0, 0, 0);
+   font-size: 50px;
+}
+ 
+ #cont .btn{
+     margin-top: 20px;
+     display: inline-block;
+ }
+ 
+ #cont a{
+     text-decoration: none;
+     font-size: 1.1rem;
+     padding: 16px 50px;
+     padding-top: 20px;
+     background-color: #ffff;
+     font-weight: 600;
+     border-radius: 5px; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ #cont a.y{
+     color: rgb(250, 249, 249);
+     background: rgb(0, 0, 0);
+     transition: 00.3s ease;
+ }
+
+ #cont a.y:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}#cont{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+background-image:  linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)), url("https://th.bing.com/th/id/OIP.lzNzrjlZDMcg0U8INJJJDAHaE0?pid=ImgDet&rs=1");
+ }
+
+ #cont h1{
+    letter-spacing: 1px;
+    padding-bottom: 35px;
+    color: rgb(255, 255, 255);
+   font-size: 50px;
+}
+ 
+ #cont .btn{
+     margin-top: 20px;
+     display: inline-block;
+ }
+ 
+ #cont a{
+     text-decoration: none;
+     font-size: 1.1rem;
+     padding: 16px 50px;
+     padding-top: 20px;
+     background-color: #ffff;
+     font-weight: 600;
+     border-radius: 5px; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ #cont a.y{
+     color: rgb(0, 0, 0);
+     background: rgb(255, 255, 255);
+     transition: 00.3s ease;
+ }
+
+ #cont a.y:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+@media (max-width: 769px) {
+    nav{
+        padding-top: 10px;
+    }
+    nav img{
+        width: 20px;
+        height: 20px;
+    }
+    #menu-box{
+        display: initial;
+    }
+    #menu-close{
+        display: initial;
+        font-size: 1.6rem;
+        color: rgb(255, 255, 255);
+        padding: 30px 0 20px 20px;
+    }
